@@ -1,0 +1,18 @@
+.todos_li{
+    color: #000;
+}
+.todo_p{
+    font-size: 21px;
+    margin-top: 20px;
+}
+.todo_h{
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.todo_button{
+    margin-left: 5px;
+}
+.todo_button2{
+    margin-left: 6px;
+}

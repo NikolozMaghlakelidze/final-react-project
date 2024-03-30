@@ -1,0 +1,68 @@
+.main_header{
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+ .burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .burger-line,
+  .burger-line1,
+  .burger-line2 {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  .burger-line1{
+    margin-top: 5px;
+  }
+  .burger-line2{
+    margin-top: 10px;
+  }
+  .header_ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    height: 0;
+    width: 100%; 
+     transition: height 0.3s ease; 
+  }
+  
+  .header_ul.open {
+    height: 150px;
+  }
+  
+  .header_ul li {
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .header_ul li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header_ul li a:hover {
+    background-color: #555;
+  }

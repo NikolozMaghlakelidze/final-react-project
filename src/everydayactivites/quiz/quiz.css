@@ -1,0 +1,11 @@
+.correct{
+color: green;
+font-size: 23px;
+}
+.wrong{
+color: red;
+font-size: 23px;
+}
+.quiz_btn{
+ width: 65px;
+}

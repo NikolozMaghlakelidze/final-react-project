@@ -1,0 +1,10 @@
+.figca{
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+}
+.products_div1{
+    width: 350px;
+    /* background-color: blue; */
+    margin-top: 50px;
+}

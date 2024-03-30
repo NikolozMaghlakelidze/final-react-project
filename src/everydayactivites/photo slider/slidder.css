@@ -1,0 +1,17 @@
+.slider_div{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 400px;
+ }
+.sliderImage {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+.slider_button {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+};

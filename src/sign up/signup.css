@@ -1,0 +1,20 @@
+.error{
+    color: red;
+}
+.form{
+    width: 250px;
+    margin: auto;
+text-align: center;    
+justify-content: center;
+}
+.input_name{
+    margin-left: 23px;
+}
+.input_email{
+    margin-left: 26px;
+    margin-bottom: 10px;
+}
+.input_password{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
